@@ -490,3 +490,28 @@ h1 {
 .newLocationsText {
   margin-right: 100px;
 }
+
+.description {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.description .wrapper {
+  padding: 0 20px;
+}
+
+.description h4 {
+  margin: 0;
+  color: #0C5F4C;
+}
+
+footer {
+  background-color: #2C2C2C;
+  color: #FAFFFE;
+  text-align: center;
+}
+
+footer p {
+  margin: 0 auto;
+  font-weight: 300;
+}
