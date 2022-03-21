@@ -104,14 +104,16 @@
                 </div>
             </div>
             <form action="#" method ="POST" class="contactForm" name="contactForm"> 
-                <label for="name" class="sr-only">Name</label>
-                <input type="text" id="name" placeholder="Name">
+                <div class="contactRow">
+                    <label for="name" class="sr-only">Name</label>
+                    <input type="text" id="name" placeholder="Name">
+    
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="email" id="email" placeholder="Email address">
+                </div>
 
-                <label for="email" class="sr-only">Email</label>
-                <input type="email" id="email" placeholder="Email address">
-
-                <label for="message" class="sr-only">Message for me</label>
-                <textarea name="message" id="message" cols="30" row="10" placeholder="Comment"></textarea>
+                <label for="message" class="sr-only">Comment</label>
+                <textarea name="message" id="message" cols="50" row="50" placeholder="Comment"></textarea>
 
                 <button>Post Comment</button>
             </form>

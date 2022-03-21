@@ -1,0 +1,47 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    // border: 3px solid black;
+    .contactRow {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    button {
+        margin-top: 20px;
+    }
+    #message {
+        height: 140px;
+    }
+}
+
+.contactRow {
+    width: 100%;
+}
+
+input, textarea {
+    padding: 0 0 20px 5px;
+    border: none;
+    font-family: $bodyFont;
+    &::placeholder {
+        font-size: 0.85rem;
+        line-height: 1.2rem;
+        font-weight: 300;
+    }
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid $green;
+    padding: 20px;
+}
+
+textarea {
+    min-height: 130px;
+    border: 2px solid $green;
+    padding: 20px;
+    resize: none;
+}
