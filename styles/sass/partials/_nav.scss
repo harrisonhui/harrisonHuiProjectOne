@@ -1,0 +1,32 @@
+.navFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navList ul {
+    display: flex;
+    justify-content: right;
+}
+
+a {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 15px;
+    color: $iceBlue;
+}
+
+.rightNavHome {
+    color: $green;
+}
+
+/* attempt to move logo to the left side separate from the rest of navigation */
+.navLogo {
+    font-size: 1.73rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.navLogo .logo {
+    color: $green;
+}

@@ -1,0 +1,68 @@
+header {
+    background-image: url("../beach-final-images/home-image-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+h2 {
+    // border: 1px solid black;
+    text-align: left; 
+    padding: none;
+    font-size: 2rem;
+    color: $spruce;
+    margin-bottom: 10px;
+    line-height: 0px;
+}
+
+h1 {
+    // border: 1px solid black;
+    font-size: 3rem;
+    color: $twilightBlue;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.headerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: 50vh;
+}
+// header END
+
+.visitFlex .wrapper {
+    border: 1px solid black;
+    display:flex;
+    align-items: flex-start;
+    padding: 100px 0;
+    justify-content: space-evenly;
+}
+
+.visitText {
+    width: 75%;
+    margin-right: 50px;
+}
+
+.gallery {
+    background-color: $lightBlue;
+    padding: 50px 0px;
+}
+.gallery ul {
+    // border: 1px solid black;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.gallery li {
+    flex-basis: 30%;
+}
