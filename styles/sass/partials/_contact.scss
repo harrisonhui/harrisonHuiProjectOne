@@ -1,0 +1,78 @@
+.contactHeader {
+    background-image: url("../beach-final-images/contact-image-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.headerContactTitle h1 {
+    color: $iceBlue;
+    font-family: $bodyFont;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.headerContactTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: 50vh;
+}
+// Contact Header END
+.contactSectionContainer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    // border: 1px solid black;
+    margin-top: 50px;
+}
+
+.contactSection {
+    padding: 20px;
+    position: relative;
+    top: -125px;
+    right: 35px;
+    background-color: $iceBlue;
+    box-shadow: 15px 15px $green;
+}
+
+.contactInfo {
+    // border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-between;
+    i {
+        color: $twilightBlue;
+        font-size: 1.2rem;
+        transition: 0.2s;
+        cursor: pointer;
+        &:hover,
+        &:focus {
+            color: $twilightBlue;
+        }
+    }
+    a {
+        padding: 0;
+    }
+}
+
+.socialText {
+    p {
+        margin: 0;
+    }
+}
+
+// style in case footer is not at the bottom of page
+// .contactFooter {
+//     position:fixed;
+//     left:0px;
+//     bottom:0px;
+//     height:30px;
+//     width:100%;
+// }
