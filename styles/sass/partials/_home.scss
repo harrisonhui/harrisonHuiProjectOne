@@ -44,12 +44,12 @@ h1 {
     height: 50vh;
 }
 // header END
-
 .visitFlex .wrapper {
-    border: 1px solid black;
+    // border: 1px solid black;
     display:flex;
     align-items: flex-start;
-    padding: 100px 0;
+    margin-top: 100px;
+    padding: 50px 0;
     justify-content: space-evenly;
 }
 
@@ -75,13 +75,13 @@ h1 {
 }
 // gallery END
 .highlightFirstRow {
-    border: 1px solid black;
+    // border: 1px solid black;
     display: flex;
     padding-top: 50px;
 }
 
 .highlightSecondRow {
-    border: 1px solid black;
+    // border: 1px solid black;
     display: flex;
     padding-bottom: 50px;
 }
@@ -98,40 +98,48 @@ h1 {
         color: $iceBlue;
     }
 }
-
 // highlight section END
 .planAhead,
 .newLocations {
     background-color: $lightBlue;
-}
-
-.planAhead .wrapper,
-.newLocations .wrapper {
     display: flex;
-    // align-items: flex-start;
-    justify-content: space-evenly;
-    border: 1px solid black;
-    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
-.leftImage,
+.planAhead {
+    margin-top: 30px;
+}
+
+
+.leftImage {
+    width: 100%;
+    position: relative;
+    top: -30px;
+}
+
 .rightImage {
     width: 100%;
     position: relative;
+    bottom: -30px;
 }
 
 .planAheadText,
 .newLocationsText {
-    border: 1px solid orange;
-    margin-top: 50px;
+    // border: 1px solid orange;
+    width: 50%;
 }
 
 .planAheadText {
+    margin-top: 30px;
     margin-left: 100px;
+    margin-right: 30px;
 }
 
 .newLocationsText {
     margin-right: 100px;
+    text-align: right;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 // plan ahead and new locations END
 .description {
