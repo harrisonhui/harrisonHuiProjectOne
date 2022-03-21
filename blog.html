@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <script src="https://kit.fontawesome.com/754a3d7818.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display+SC:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="blogHeader">
+        <nav class="wrapper">  
+            <section class="navFlex">
+                <div class="navLogo">
+                    <ul>
+                        <li>
+                            <a href="" class="logo">Beachstays</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navList">
+                    <ul>
+                        <li>
+                            <a href="" class="rightNav">Home</a>
+                        </li>
+                        <li>
+                            <a href="" class="rightNav">About</a>
+                        </li>
+                        <li>
+                            <a href="" class="rightNav rightNavHome">Blog</a>
+                        </li>
+                        <li>
+                            <a href="" class="rightNav">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </nav>
+
+        <div class="headerBlogTitle">
+            <div class="wrapper">
+                <h1>Blog</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main section blog post + our mission -->
+    <section class="blogPostContent">
+        <div class="blogPost">
+            <div class="blogPostImageContainer">
+                <img src="./beach-final-images/post-image.jpg" class="blogPostImage" alt="Entrance to house with focus on bridge">
+            </div>
+            <div class="wrapper">
+                <h3>Five days of ocean seas</h3>
+                <h5 class="date">Monday January 21th, 2019 by <strong class="bora">Bora</strong></h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam delectus harum fuga repudiandae est aperiam minima modi corporis consectetur? Quas, esse, libero repellendus distinctio commodi repudiandae soluta, exercitationem totam doloribus fugiat rerum beatae voluptas! Nesciunt quia architecto enim fuga maxime.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae eligendi architecto reiciendis perspiciatis veritatis. Repellat error eum, sint similique, expedita magnam natus, corporis earum perspiciatis voluptas vitae quaerat dicta minus corrupti. Delectus a dolor debitis similique suscipit rerum tempora minima ratione consequuntur. Mollitia dolorem ipsum corporis provident aperiam commodi.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga accusamus facilis ipsam similique ratione esse magni unde quisquam sed quis deserunt iste atque omnis doloribus, quaerat doloremque hic, impedit commodi? Qui modi molestiae rerum, excepturi quasi, asperiores rem quis at sed natus obcaecati accusamus, eos debitis atque ut quibusdam quae. Doloremque fuga qui vitae blanditiis ea, reiciendis ad. Porro, aspernatur!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur excepturi eos est, quas veniam perferendis nemo? Cupiditate quisquam iure recusandae!</p>
+            </div>
+        </div>
+        <div class="ourMission">
+            <div class="ourMissionImageContainer">
+                <img src="./beach-final-images/sidebar-image.jpg" alt="House on shore">
+            </div>
+            <div class="ourMissionText">
+                <h5>Our mission</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, modi. <strong>Find out more.</strong></p>
+                <h5>Recent Posts</h5>
+                <ul class="recentPosts">
+                    <li>Donec facilisis tortor ut</li>
+                    <li>Augue lacinia at viverra</li>
+                    <li>Semper sed sapien metus</li>
+                    <li>Scelerisque nec pharetra</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="comments">
+        <div class="wrapper">
+            <h6>Comments:</h6>
+            <div class="commentOneContainer">
+                <div class="commentOneImage">
+                    <img src="./beach-final-images/comment-image.jpg" alt="headshot of male">
+                </div>
+                <div class="commentOneText">
+                    <h5 class="commentOneDate">Tuesday October 9th, 2019 by Reyansh</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla sit modi fuga eveniet culpa expedita?</p>
+                </div>
+            </div>
+            <div class="commentTwoContainer">
+                <div class="commentTwoImage">
+                    <img src="./beach-final-images/comment-image2.jpg" alt="headshot of female">
+                </div>
+                <div class="commentTwoText">
+                    <h5 class="commentTwoDate">Wednesday October 10th, 2019 by Olivia</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla sit modi fuga eveniet culpa expedita?</p>
+                </div>
+            </div>
+            <form action="#" method ="POST" class="contactForm" name="contactForm"> 
+                <label for="name" class="sr-only">Name</label>
+                <input type="text" id="name" placeholder="Name">
+
+                <label for="email" class="sr-only">Email</label>
+                <input type="email" id="email" placeholder="Email address">
+
+                <label for="message" class="sr-only">Message for me</label>
+                <textarea name="message" id="message" cols="30" row="10" placeholder="Comment"></textarea>
+
+                <button>Post Comment</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2019 HackerYou</p>
+    </footer>
+</body>
+</html>
