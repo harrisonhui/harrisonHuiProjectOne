@@ -12,6 +12,20 @@ h2, h3, h4, h5 {
     font-weight: bold;
 }
 
+h3, h4 {
+    // supposed to be 1.75 rem (35px/20px = 1.75) but readjusted font size manually seemed to big 
+    font-size: 1.25rem;
+}
+
+h3 {
+    color: $spruce;
+}
+
+h4 {
+    color: $twilightBlue;
+    margin: 0;
+}
+
 h1, span, button, .logo {
     font-family: $logoFont;
     font-size: 1rem;

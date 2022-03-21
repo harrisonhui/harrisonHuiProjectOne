@@ -240,6 +240,19 @@ h2, h3, h4, h5 {
   font-weight: bold;
 }
 
+h3, h4 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  color: #0C5F4C;
+}
+
+h4 {
+  color: #063974;
+  margin: 0;
+}
+
 h1, span, button, .logo {
   font-family: "Playfair Display SC";
   font-size: 1rem;
@@ -272,6 +285,14 @@ img {
   max-height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 5px;
+  background-color: #063974;
+  color: #FAFFFE;
 }
 
 .navFlex {
@@ -401,4 +422,71 @@ h1 {
 .gallery li {
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
+}
+
+.highlightFirstRow {
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+}
+
+.highlightSecondRow {
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.icon {
+  padding-right: 15px;
+  padding-top: 15px;
+}
+.icon .iconBackground {
+  background-color: #50E3C2;
+  border-radius: 50%;
+  padding: 10px;
+}
+.icon i {
+  color: #FAFFFE;
+}
+
+.planAhead,
+.newLocations {
+  background-color: #D2F9F1;
+}
+
+.planAhead .wrapper,
+.newLocations .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 1px solid black;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.leftImage,
+.rightImage {
+  width: 100%;
+  position: relative;
+}
+
+.planAheadText,
+.newLocationsText {
+  border: 1px solid orange;
+  margin-top: 50px;
+}
+
+.planAheadText {
+  margin-left: 100px;
+}
+
+.newLocationsText {
+  margin-right: 100px;
 }
