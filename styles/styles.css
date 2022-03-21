@@ -363,6 +363,13 @@ h1 {
   text-align: left;
 }
 
+.headerImageContainer {
+  background-image: url("../beach-final-images/header-box.jpg");
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+}
+
 .textLeft {
   text-align: left;
 }
@@ -505,6 +512,20 @@ h1 {
   color: #0C5F4C;
 }
 
+.headerImageContainer {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+}
+
+h1,
+h2 {
+  position: relative;
+  z-index: 2;
+}
+
 footer {
   background-color: #2C2C2C;
   color: #FAFFFE;
@@ -514,4 +535,15 @@ footer {
 footer p {
   margin: 0 auto;
   font-weight: 300;
+}
+
+.visitBox,
+.rightImage {
+  -webkit-box-shadow: -10px 10px #50E3C2;
+          box-shadow: -10px 10px #50E3C2;
+}
+
+.leftImage {
+  -webkit-box-shadow: 10px 10px #50E3C2;
+          box-shadow: 10px 10px #50E3C2;
 }
