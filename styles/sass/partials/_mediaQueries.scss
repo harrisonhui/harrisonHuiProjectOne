@@ -1,0 +1,121 @@
+@media (max-width: 800px) {
+    // for TABLET devices
+    .headerImageContainer {
+        background-image: none;
+    }
+
+    .visitFlex .wrapper {
+        margin: 0 auto;
+    }
+
+    .rightImage {
+        bottom: -120px;
+    }
+
+    // Home page resizing END
+
+}
+
+@media (max-width: 500px) {
+    .navFlex {
+        flex-direction: column;
+    }
+
+    .headerTitle {
+        height: 30vh;
+    }
+
+    .planAhead,
+    .newLocations {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .planAheadText,
+    .newLocationsText {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .bannerImage {
+        height: 50vh;
+    }
+    // Home page resizing END
+    .comments {
+        top: 0;
+    }
+
+    .blogPost {
+        top: 0;
+    }
+
+    .headerBlogTitle h1{
+        text-align: center;
+    }
+    // Blog page resizing END
+    .headerContactTitle h1 {
+        text-align: center;
+        height: 30vh;
+    }
+
+    .contactSection {
+        width: 90vh;
+        margin: 0 auto;
+    }
+
+    .contactSectionContainer .wrapper {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .socialIcons {
+        justify-content: space-around;
+    }
+    .contactInfo {
+        flex-direction: row;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 320px) {
+    // for MOBILE devices
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .visitFlex .wrapper {
+        flex-direction: column;
+    }
+
+    .highlightFirstRow,
+    .highlightSecondRow {
+        flex-direction: column;
+    }
+
+    .icon {
+        display: none;
+    }
+    // Home page resizing END
+    .blogPostContent {
+        flex-direction: column;
+    }
+
+    .blogPost,
+    .ourMission,
+    .comments {
+        width: 100%;
+    }
+    // Blog page resizing END
+
+    .contactSection {
+        width: 65vh;
+    }
+}

@@ -875,3 +875,147 @@ textarea {
 .socialText p {
   margin: 0;
 }
+
+@media (max-width: 800px) {
+  .headerImageContainer {
+    background-image: none;
+  }
+
+  .visitFlex .wrapper {
+    margin: 0 auto;
+  }
+
+  .rightImage {
+    bottom: -120px;
+  }
+}
+@media (max-width: 500px) {
+  .navFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .headerTitle {
+    height: 30vh;
+  }
+
+  .planAhead,
+.newLocations {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .planAheadText,
+.newLocationsText {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .bannerImage {
+    height: 50vh;
+  }
+
+  .comments {
+    top: 0;
+  }
+
+  .blogPost {
+    top: 0;
+  }
+
+  .headerBlogTitle h1 {
+    text-align: center;
+  }
+
+  .headerContactTitle h1 {
+    text-align: center;
+    height: 30vh;
+  }
+
+  .contactSection {
+    width: 90vh;
+    margin: 0 auto;
+  }
+
+  .contactSectionContainer .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .socialIcons {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+
+  .contactInfo {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .visitFlex .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .highlightFirstRow,
+.highlightSecondRow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .blogPostContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .blogPost,
+.ourMission,
+.comments {
+    width: 100%;
+  }
+
+  .contactSection {
+    width: 65vh;
+  }
+}
