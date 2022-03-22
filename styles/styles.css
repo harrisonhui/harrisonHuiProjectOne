@@ -876,6 +876,14 @@ textarea {
   margin: 0;
 }
 
+.contactFooter {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+}
+
 @media (max-width: 800px) {
   .headerImageContainer {
     background-image: none;
