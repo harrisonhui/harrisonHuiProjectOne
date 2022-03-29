@@ -8,7 +8,7 @@ formElement.addEventListener('submit', function(event) {
 
     if (commentNew) {
     const listItem = document.createElement('li')
-    listItem.innerHTML = 'New Comment'
+    listItem.innerHTML = '<img src="https://picsum.photos/200"/>'
 
     const paragraph = document.createElement('p')
     paragraph.textContent = commentNew
